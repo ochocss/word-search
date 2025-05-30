@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class WordSearch {
     public static void main(String[] args) {
-        File folder = new File("C:\\Users\\ADM\\IdeaProjects\\word-search\\txts-folder"); //where the files will be
+        File folder = new File("C:\\Users\\youruser\\yourfolder\\word-search\\txts-folder"); //where the files will be
         File[] fileArray = folder.listFiles();
 
         String search = "a";
